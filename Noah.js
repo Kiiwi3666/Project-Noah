@@ -5,6 +5,7 @@ token: Noah.token,, //Discord Bot Token
 prefix: Noah.prefix //Discord Bot Prefix
 })
 bot.onMessage() //Allows to execute Commands
+bot.loadCommands(`./Noahcmd/`)
 
 bot.command({
 name: "ping", //Trigger name (command name)
